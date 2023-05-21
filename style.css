@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+
+html,
+body {
+    background: rgb(57, 67, 70);
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Inconsolata', monospace;
+}
+
+.list-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: bold;
+    font-size: x-large;
+    color: #685e6f;
+    list-style: none;
+    border-bottom: 1px solid grey;
+    margin-top: 7px;
+    padding-bottom: 7px;
+}
+
+.list-items li {
+    cursor: pointer;
+}
+
+.todo-list {
+    display: flex;
+    flex-direction: column;
+    font: bold;
+    justify-content: center;
+    font-size: x-large;
+    color: #685e6f;
+    cursor: text;
+}
+
+.todo-list li {
+    margin: 34px 345px;
+}
+
+li {
+    margin: 4px 16px;
+}
+
+.logo {
+    font-size: xxx-large;
+    margin: 4px -60px;
+}
+
+.div-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-box {
+    font-size: 34px;
+    height: 43px;
+    width: 334px;
+    padding: 7px 32px;
+    border: 3px solid #23435c;
+    border-radius: 17px;
+    background: darkslategrey;
+    color: #7e7c7b;
+    outline: none;
+    resize: none;
+    width: 366px;
+    height: 192px;
+}
+
+#btn {
+    padding: 8px 12px;
+    font-size: large;
+    font: 600;
+    height: 49px;
+    margin: 3px 60px;
+    border: 3px solid black;
+    border-radius: 22px;
+    color: #61c0b9;
+    background: bisque;
+    transition: all 0.1s;
+    cursor: pointer;
+}
+
+#btn :hover {
+    background-color: rgb(86, 59, 25);
+    color: #41938e;
+}
+
+#btn1 {
+    padding: 8px 12px;
+    font-size: large;
+    font: 600;
+    height: 49px;
+    border: 3px solid black;
+    border-radius: 22px;
+    color: #61c0b9;
+    background: bisque;
+    transition: all 0.1s;
+    cursor: pointer;
+}
